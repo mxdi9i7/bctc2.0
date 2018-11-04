@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Emaus | App Landing</title>
+  <title>Emaus | Saas Landing</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -15,16 +15,16 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-icons.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="img/favicon.ico">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
 </head>
 
-<body data-spy="scroll" data-offset="60" data-target=".nav__holder">
+<body>
 
   <!-- Preloader -->
   <div class="loader-mask">
@@ -36,7 +36,7 @@
   <main class="main-wrapper">
 
     <!-- Navigation -->
-    <header class="nav nav--sticky-on-mobile" id="home">
+    <header class="nav nav--transparent">
 
       <div class="nav__holder" id="sticky-nav">
         <div class="container">
@@ -44,9 +44,9 @@
 
             <div class="nav__header clearfix">
               <!-- Logo -->
-              <div class="logo-wrap local-scroll">
-                <a href="#home" class="logo__link">
-                  <img class="logo logo--dark" src="img/logo_dark.png" alt="logo">
+              <div class="logo-wrap">
+                <a href="index.html" class="logo__link">
+                  <h1 class="text-light">BCTC</h1>
                 </a>
               </div>
 
@@ -58,25 +58,52 @@
               </button>
             </div> <!-- end nav-header -->
 
-
             <nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse">              
-              <ul class="nav__menu nav__menu--inline local-scroll" id="onepage-nav">
-                <li>
-                  <a href="#features">Features</a>
+              <ul class="nav__menu nav__menu--inline">
+
+                <!-- <li class="nav__dropdown active">
+                  <a href="index.html">Home</a>
+                  <i class="ui-arrow-down nav__dropdown-trigger"></i>
+                  <ul class="nav__dropdown-menu">
+                    <li><a href="index.html">Saas Landing</a></li>
+                    <li><a href="index-2.html">Mobile App</a></li>
+                    <li><a href="index-3.html">eBook Landing</a></li>
+                  </ul>
                 </li>
                 <li>
-                  <a href="#testimonials">Testimonials</a>
+                  <a href="features.html">Features</a>
                 </li>
                 <li>
-                  <a href="#screens">Screens</a>
+                  <a href="pricing.html">Pricing</a>
                 </li>
+                <li>
+                  <a href="icons.html">Icons</a>
+                </li>
+                <li>
+                  <a href="knowledge-base.html">Knowledge Base</a>
+                </li>             -->
+                <li>
+                  <a href="/services.html">Services</a>
+                </li>
+                <li>
+                  <a href="/projects.html">Past Projects</a>
+                </li>
+                <li>
+                  <a href="/education.html">Education</a>
+                </li>
+                <!-- <li>
+                  <a href="https://store.bctc.io">Store</a>
+                </li> -->
+                <li>
+                  <a href="/contact.html">Contact Us</a>
+                </li>
+
               </ul> <!-- end menu -->
 
-              <div class="nav__btn-holder">
-                <a href="#" class="btn btn--sm btn--color rounded"><span>Download</span></a>
-              </div>
-            </nav> <!-- end nav-wrap -->
-
+              <!-- <div class="nav__btn-holder">
+                <a href="#" class="btn btn--sm btn--color rounded"><span>Sign Up</span></a>
+              </div> -->
+            </nav> <!-- end nav-wrap -->         
         
           </div> <!-- end flex-parent -->
         </div> <!-- end container -->
